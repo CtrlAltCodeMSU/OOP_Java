@@ -13,6 +13,7 @@ public class PermanentEmpl extends Employee{
 	}
 	public void calcuateSalary(){
 		salary = bpay + (bpay*.45)+(bpay*.3)+10000;
+		System.out.println("Employee Salary: ");
 		System.out.println("Total Salary is : " + salary);
 	}
 }
