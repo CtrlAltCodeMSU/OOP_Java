@@ -28,7 +28,7 @@ package Online_Order;
 		}
 
 		void performRole(){
-			System.out.println("he is delivering food");
+			System.out.println(" Delivery boy is delivering food");
 		}
 	}
 	class Admin extends User{
@@ -36,7 +36,7 @@ package Online_Order;
 		super(name);
 	}
 	public void performRole(){
-		System.out.println("Admin is managing the system");
+		System.out.println("Admin is managing the system!");
 	}
 }
 public class Delivery{
