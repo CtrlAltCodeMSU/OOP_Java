@@ -17,6 +17,4 @@ public class read {
 			e.printStackTrace();
 		}
 	}
-
-
 }

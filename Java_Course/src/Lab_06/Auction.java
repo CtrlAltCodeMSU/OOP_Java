@@ -84,8 +84,6 @@ public class Auction {
 	}
 
 
-
-
 	class Auction_System {
 		public static void main(String[] args) {
 			Auction auction = new Auction();
