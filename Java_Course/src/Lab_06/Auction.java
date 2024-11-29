@@ -84,11 +84,6 @@ public class Auction {
 	}
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 4e9eb4f5b24308955f92ecb82c12ac48f6770117
 	class Auction_System {
 		public static void main(String[] args) {
 			Auction auction = new Auction();
