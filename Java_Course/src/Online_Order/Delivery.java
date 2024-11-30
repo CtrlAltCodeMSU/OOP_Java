@@ -8,7 +8,7 @@ package Online_Order;
 	}
 
 	public void login() {
-		System.out.println(name + "Login Successfully");
+		System.out.println(name + ":  Login Successfully");
 
 	}
 	abstract void performRole();
@@ -18,7 +18,7 @@ package Online_Order;
 			super(name);
 		}
 		void performRole(){
-			System.out.println("Customer is browsing");
+			System.out.println(" New Customer is browsing");
 		}
 	}
 
