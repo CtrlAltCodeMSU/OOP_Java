@@ -3,7 +3,7 @@ interface Animal {
 	public void animalSound();
 	public void sleep();
 }
-class cat implements Animal{
+class cat implements Animal {
 	public void animalSound(){
 		System.out.println("Cat Says: " + "meow meow");
 	}
