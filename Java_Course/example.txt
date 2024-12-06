@@ -1,0 +1,2 @@
+Hello this is written by me Muhammad Sana Ullah using fileWriter. 
+File Handling in Java is easy!
