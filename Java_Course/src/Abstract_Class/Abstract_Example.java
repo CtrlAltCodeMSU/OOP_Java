@@ -16,7 +16,7 @@ class Dog extends Animal {
 		super(name);
 	}
 	void sound() {
-		System.out.println(name + " barks.");
+		System.out.println(name + " barks!");
 	}
 }
 class Cat extends Animal {
@@ -24,16 +24,16 @@ class Cat extends Animal {
 		super(name);
 	}
 	void sound(){
-		System.out.println(name + " meows.");
+		System.out.println(name + " meows!");
 	}
 }
 public class Abstract_Example {
 	public static void main(String[] args) {
-	Animal dog = new Dog("Buddy");
+	Animal dog = new Dog("Puppy");
 	dog.eat();
 	dog.sound();
 
-	Animal cat = new Cat("Sprinkle");
+	Animal cat = new Cat("Huzit");
 	cat.eat();
 	cat.sound();
 	}
