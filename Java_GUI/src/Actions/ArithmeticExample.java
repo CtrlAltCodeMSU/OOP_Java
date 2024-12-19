@@ -12,6 +12,20 @@ public class ArithmeticExample {
 		JButton b = new JButton("Add");
 		JLabel l = new JLabel("Result: ");
 
+		num1.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				num2.requestFocus(); // Move focus to second text field
+			}
+		});
+
+		// Perform addition when Enter is pressed in num2Field
+		num2.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				b.doClick(); // Simulate clicking the "Add" button
+			}
+		});
 		b.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
