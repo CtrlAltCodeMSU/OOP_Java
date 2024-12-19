@@ -1,4 +1,4 @@
-package src;
+package src.Input;
 
 import javax.swing.*;
 

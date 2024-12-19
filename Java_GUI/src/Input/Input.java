@@ -1,4 +1,4 @@
-package src;
+package src.Input;
 
 import javax.swing.*;
 import java.awt.*;
@@ -40,6 +40,5 @@ public class Input {
 			}
 		});
 		f.setVisible(true);
-
 	}
 }
